@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CrossPlatformAppXamarin"
+             x:Class="CrossPlatformAppXamarin.MainPage">
+
+    <ScrollView Orientation="Vertical">
+        <StackLayout Orientation="Vertical">
+
+    
+        <StackLayout Orientation="Horizontal" Padding="5">
+            <Label Text="Enter the text or take photo">            
+            </Label>
+            <Button x:Name="OCRBtn" Clicked="OCRBtn_Clicked" Text="X" HeightRequest="50" WidthRequest="50">
+            
+            </Button>
+        </StackLayout>
+
+        <Editor x:Name="toTranslate" BackgroundColor="#a5d6a7" HeightRequest="130"  Text="ENTERED TEXT" Margin="5"></Editor>
+
+        <Picker x:Name="languagePicker" Title="Choose language"  Margin="5">
+            <Picker.Items>
+                <x:String>en</x:String>
+                <x:String>ru</x:String>
+                <x:String>fr</x:String>
+                <x:String>uk</x:String>
+            </Picker.Items>
+        </Picker>
+
+        <Button x:Name="translateBtn" Clicked="TranslateBtn_Clicked" Text="Translate" Margin="5,10,5,10"></Button>
+
+        <Editor x:Name="translated" BackgroundColor="LightGray" HeightRequest="130"  Text="Result of translation" Margin="5"></Editor>
+
+        <Button x:Name="historyBtn" Clicked="HistoryBtn_Clicked" Text="История переводов" Margin="5,10,5,10"></Button>
+
+
+    </StackLayout>
+    </ScrollView>
+
+
+
+</ContentPage>

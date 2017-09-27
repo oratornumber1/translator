@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{F456846F-4FEE-42D7-9F5C-7F70E782B395}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CrossPlatformAppXamarin/CrossPlatformAppXamarin/MainPage.xaml.cs">
+    <Files>
+      <File FileName="CrossPlatformAppXamarin/CrossPlatformAppXamarin/OCR.xaml.cs" Line="73" Column="24" />
+      <File FileName="CrossPlatformAppXamarin/CrossPlatformAppXamarin/MainPage.xaml" Line="42" Column="15" />
+      <File FileName="../../../../Library/Frameworks/Xamarin.Android.framework/Versions/7.4.5-1/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="543" Column="2" />
+      <File FileName="CrossPlatformAppXamarin/CrossPlatformAppXamarin/MainPage.xaml.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CrossPlatformAppXamarin.Android PreferredExecutionTarget="Android.192.168.56.101:5555" />
+  <MultiItemStartupConfigurations />
+</Properties>
